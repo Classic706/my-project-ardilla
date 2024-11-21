@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.section-2-box::-webkit-scrollbar {
+  height: 4px;
+}
+
+.section-2-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.section-2-box::-webkit-scrollbar-thumb {
+  background: rgb(36, 0, 83);
+  border-radius: 2px;
+}
+
+.section-2-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* For Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+input[type="number"]:focus {
+  outline: none; /* Removes the default outline */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.section4-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.section4-card {
+  display: flex;
+  flex-direction: column;
+}
+.accordion {
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* 
+.accordion-item {
+   border-bottom: 1px solid #ddd; 
+} */
+
+.accordion-header {
+  background: #f9fafb;
+  border: none;
+  padding: 30px;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+
+.accordion-header:hover {
+  background: #eee;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px 15px;
+  background: #fff;
+}
+
+.accordion-content p {
+  margin: 0;
+}

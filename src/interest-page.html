@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="../owl.carousel.css" />
+  </head>
+  <body>
+    <header class="h-20 bg-[#240053] sticky top-0 z-10">
+      <div
+        class="md:container md:mx-auto flex flex-row h-20 px-6 items-center justify-between"
+      >
+        <a href="./index.html"
+          ><img src="../image/LOGO (1).png" alt="LOGO (1).png"
+        /></a>
+        <div class="text-white min-w-60 hidden flex-row gap-10 md:flex">
+          <a href="#">Products</a>
+          <a href="#">Business</a>
+          <a href="#">Company</a>
+          <a href="#">Learn</a>
+        </div>
+        <div class="hidden md:flex flex-row gap-2 items-center">
+          <div class="flex flex-row">
+            <img
+              class="rounded-full border-[6px] border-[#544263]"
+              src="../image/world-map.webp"
+              alt="image-removebg-preview"
+              width="30"
+            />
+            <img src="../image/Frame 176.svg" alt="" />
+          </div>
+          <a
+            class="rounded-full hover:bg-[#6005AE] bg-[#8807F7] text-white text-sm p-2"
+            href="#"
+            >Create Account</a
+          >
+        </div>
+        <button
+          class="block md:hidden border-3 border-red-600 text-white text-4xl cursor-pointer marker:"
+        >
+          &#9776;
+        </button>
+      </div>
+    </header>
+    <main>
+      <section
+        class="w-full bg-[url('../image/interest-back.webp')] bg-no-repeat bg-cover pt-20"
+      >
+        <div
+          class="flex w-11/12 sm:flex-row flex-col gap-16 mx-auto justify-between"
+        >
+          <div
+            class="flex flex-col text-white pl-5 w-auto sm:w-10/12 mx-auto justify-center sm:justify-start sm:items-start items-center"
+          >
+            <p class="text-3xl mb-14">Calculate Your Interests</p>
+
+            <div class="flex flex-col mb-8">
+              <form class="flex flex-col gap-5" action="#">
+                <label for="savings">How often are you saving?</label>
+                <select
+                  class="w-56 h-12 border rounded-md text-sm bg-[#10001F] text-center sm:text-start"
+                  id="month"
+                  name="month"
+                >
+                  <option value="mo">monthly</option>
+                  <option value="we">weekly</option>
+                  <option value="day">daily</option>
+                </select>
+              </form>
+            </div>
+            <div class="mb-8">
+              <form class="flex flex-col gap-5" action="#">
+                <label for="amount">How much are you saving?</label>
+                <input
+                  class="w-56 h-12 border-b text-3xl bg-inherit text-center sm:text-start"
+                  type="number"
+                  name="amount"
+                  id="amount"
+                  placeholder="2000"
+                />
+              </form>
+            </div>
+            <div>
+              <form class="flex flex-col gap-5" action="#">
+                <label for="duration"
+                  >How long are you saving for? (In months)</label
+                >
+                <input
+                  class="w-56 h-12 border-b text-2xl bg-inherit self-center sm:self-start text-center sm:text-start"
+                  type="number"
+                  name="duration"
+                  id="duration"
+                  placeholder="3"
+                />
+              </form>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-t-2xl pt-10 w-11/12 sm:w-7/12 mx-auto mb-14 sm:m-0 text-sm pb-28 py-5"
+          >
+            <div class="flex flex-col text-[#6B7280] p-5">
+              <div>
+                <p>Total Balance</p>
+                <p class="text-2xl text-[#3D0072]">N6,600</p>
+              </div>
+              <p class="py-5">
+                Saving <span class="font-bold">₦2,000</span> monthly for 3
+                months will result in a balance of
+                <span class="font-bold"> ₦6,600 </span>
+              </p>
+              <div>
+                <p>Interest</p>
+                <p class="text-2xl text-[#3D0072]">
+                  N600 <span class="text-sm"> (2%)</span>
+                </p>
+              </div>
+              <div
+                class="h-44 bg-[url('../image/graph.webp')] bg-no-repeat bg-cover mb-14 mt-6 bg-center"
+              >
+                <!-- <img src="../image/graph.webp" alt=""> -->
+                <div>
+                  <p>Total Savings</p>
+                  <p class="text-2xl text-[#3D0072]">
+                    N6,000 <span class="text-sm"> (2%)</span>
+                  </p>
+                </div>
+              </div>
+              <a
+                class="rounded-full w-max hover:bg-[#6005AE] bg-[#8807F7] text-white text-sm p-2"
+                href="#"
+                >Start Saving Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="text-[#3D0072] pt-20 flex flex-col gap-20 w-11/12 mx-auto">
+          <p class="text-5xl pl-4 font-bold text-center sm:text-start">
+            Interest you can count on
+          </p>
+          <div class="flex md:flex-row flex-col justify-between">
+            <div class="flex flex-row gap-5 px-4 py-2 md:w-[48%] w-4/5 mx-auto">
+              <div class="">
+                <div
+                  class="w-6 h-6 rounded-full bg-[#8807F7] flex justify-center items-center"
+                >
+                  <p class="w-3 h-3 rounded-full bg-white"></p>
+                </div>
+                <img
+                  class="block ml-2.5"
+                  src="../image/Rectangle.webp"
+                  alt=""
+                />
+                <div
+                  class="w-6 h-6 rounded-full bg-[#8807F7] flex justify-center items-center"
+                >
+                  <p class="w-3 h-3 rounded-full bg-white"></p>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <div class="leading-9">
+                  <p class="text-2xl mb-3 -mt-2">More Interest</p>
+
+                  <p class="h-44">
+                    Enjoy better interest rates than the average bank account
+                    when you save with any of the Ardilla savings plan.
+                  </p>
+                </div>
+                <div class="flex flex-col leading-9">
+                  <p class="text-2xl mb-3">Transparency</p>
+                  <p class="h-44">
+                    No hidden charges and no vague deductions. Save with Ardilla
+                    and get your full interests.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row px-4 py-2 gap-5 md:w-[48%] w-4/5 mx-auto">
+              <div class="">
+                <div
+                  class="w-6 h-6 rounded-full bg-[#8807F7] flex justify-center items-center"
+                >
+                  <p class="w-3 h-3 rounded-full bg-white"></p>
+                </div>
+                <img
+                  class="block ml-2.5"
+                  src="../image/Rectangle.webp"
+                  alt=""
+                />
+                <div
+                  class="w-6 h-6 rounded-full bg-[#8807F7] flex justify-center items-center"
+                >
+                  <p class="w-3 h-3 rounded-full bg-white"></p>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <div class="leading-9">
+                  <p class="text-2xl mb-3 -mt-2">Values</p>
+
+                  <p class="h-44">
+                    Your values matter to us and we are 100% committed to
+                    upholding those. Whether it is with Halal or the Ardilla
+                    saving plans.
+                  </p>
+                </div>
+                <div class="flex flex-col leading-9">
+                  <p class="text-2xl mb-3">Complete Withdraws</p>
+                  <p class="h-44">
+                    Withdraw your entire savings+ interest upon maturity. No
+                    minimum balance.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-10/12 mx-auto pt-20 pb-24">
+          <p
+            class="text-[#3D0072] w-full mb-14 font-bold text-5xl text-center sm:text-start"
+          >
+            How It Works
+          </p>
+
+          <div
+            class="flex sm:flex-row flex-col justify-between gap-10 sm:gap-5 w-full section4-inner-container"
+          >
+            <div
+              class="flex flex-col min-w-[300px] section4-card rounded-3xl bg-[#FDEDF2] pt-7 px-7 items-center sm:items-start"
+            >
+              <div class="flex flex-row gap-4 justify-center items-center mb-8">
+                <p
+                  class="h-7 w-5 p-1 flex justify-center items-center rounded-full bg-[#E8356D] text-white"
+                >
+                  1
+                </p>
+                <p>Create a plan</p>
+              </div>
+              <div class="">
+                <img src="../image/dib-mobile.webp-2.webp" alt="dib-mobile" />
+              </div>
+            </div>
+            <div
+              class="flex flex-col min-w-[300px] section4-card rounded-3xl bg-[#FAF5FF] pt-7 px-7 items-center sm:items-start"
+            >
+              <div class="flex flex-row gap-4 justify-center items-center mb-8">
+                <p
+                  class="h-7 w-5 p-1 flex justify-center items-center rounded-full bg-[#8807F7] text-white"
+                >
+                  2
+                </p>
+                <p>Set your target amount</p>
+              </div>
+              <div class="">
+                <img
+                  class=""
+                  src="../image/dib-amount-2.webp"
+                  alt="dib-mobile"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col min-w-[300px] section4-card justify-center align-middle rounded-3xl bg-[#F1F5FE] pt-7 px-7 items-center sm:items-start"
+            >
+              <div class="flex flex-row gap-4 justify-center items-center mb-8">
+                <p
+                  class="h-7 w-5 p-1 flex justify-center items-center rounded-full bg-[#2563EB] text-white"
+                >
+                  3
+                </p>
+                <p>Get Your interest</p>
+              </div>
+              <div class="">
+                <img src="../image/break-down-2.webp" alt="dib-mobile" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-10/12 mx-auto flex flex-col gap-8 pb-52">
+          <p
+            class="text-[#3D0072] w-full mb-14 text-5xl font-bold text-center sm:text-start"
+          >
+            Questions We Have been Asked
+          </p>
+          <div class="accordion">
+            <div class="accordion-item">
+              <button class="accordion-header rounded-xl">
+                <div class="flex justify-between">
+                  <p>What are your interest rates?</p>
+                  <p>
+                    <img
+                      src="../image/material-symbols_add.svg"
+                      alt="/material-symbols_add.svg"
+                    />
+                  </p>
+                </div>
+              </button>
+              <div class="accordion-content">
+                <p>What are your interest rates?</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header rounded-xl">
+                <div class="flex justify-between">
+                  <p>What happens to my interest when i switch to Halal?</p>
+                  <p>
+                    <img
+                      src="../image/material-symbols_add.svg"
+                      alt="/material-symbols_add.svg"
+                    />
+                  </p>
+                </div>
+              </button>
+              <div class="accordion-content">
+                <p>What happens to my interest when i switch to Halal?</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header rounded-xl">
+                <div class="flex justify-between">
+                  <p>What is the minimum interest rate I am entitled to?</p>
+                  <p>
+                    <img
+                      src="../image/material-symbols_add.svg"
+                      alt="/material-symbols_add.svg"
+                    />
+                  </p>
+                </div>
+              </button>
+              <div class="accordion-content">
+                <p>What is the minimum interest rate I am entitled to?</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header rounded-xl">
+                <div class="flex justify-between">
+                  <p>What is Ardilla</p>
+                  <p>
+                    <img
+                      src="../image/material-symbols_add.svg"
+                      alt="/material-symbols_add.svg"
+                    />
+                  </p>
+                </div>
+              </button>
+              <div class="accordion-content">
+                <p>What is Ardilla</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-header rounded-xl">
+                <div class="flex justify-between">
+                  <p>What is Ardilla</p>
+                  <p>
+                    <img
+                      src="../image/material-symbols_add.svg"
+                      alt="/material-symbols_add.svg"
+                    />
+                  </p>
+                </div>
+              </button>
+              <div class="accordion-content">
+                <p>What is Ardilla</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="relative bg-[#8807F7] flex flex-col">
+      <div
+        class="absolute w-9/12 sm:flex self-center -top-20 -mt-2 bg-[url('../image/footer-mini-background.webp')] bg-cover h-auto sm:72 rounded-3xl bg-no-repeat"
+      >
+        <div
+          class="flex flex-col items-center sm:items-start sm:flex-row w-4/5 mx-auto pt-10"
+        >
+          <div
+            class="flex flex-col pb-5 justify-center items-center sm:items-start gap-6 w-"
+          >
+            <p class="text-white text-3xl text-center sm:text-start md:w-3/4">
+              Download for free Start saving Today
+            </p>
+            <p>
+              <a class="bg-white text-sm p-2 rounded-md text-[#3C0071]" href="#"
+                >Download for free</a
+              >
+            </p>
+          </div>
+          <div class="self-end flex justify-center items-center">
+            <img
+              class=""
+              src="../image/footer-mobile.webp"
+              alt="footer-mobile"
+              width="370"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="mt-0 pt-80 sm:pt-10 sm:mt-36">
+        <div
+          class="flex flex-row justify-around md:justify-between mx-auto w-[87%] flex-wrap md:gap-0 gap-14"
+        >
+          <div
+            class="text-white min-w-64 md:min-w-48 pb-5 md:mt-0 mt-5 text-center sm:text-start"
+          >
+            <h3 class="text-sm mb-7 font-bold">Products</h3>
+            <ul>
+              <li class="text-sm mb-6"><a href="#">Savings</a></li>
+              <li class="text-sm mb-6"><a href="#">Dilla</a></li>
+              <li class="text-sm mb-6">
+                <a href="#">Financial Coach</a>
+              </li>
+              <li class="text-sm mb-6"><a href="#">Halal</a></li>
+            </ul>
+            <p class="text-sm mb-6">
+              <a href="#">Budgetting</a
+              ><a class="rounded-full border p-1 ml-4" href="#">Coming Soon</a>
+            </p>
+            <p class="text-sm mb-6">
+              <a href="#">Investment</a
+              ><a class="rounded-full border p-1 ml-4" href="#">Coming Soon</a>
+            </p>
+            <p class="text-sm">
+              <a href="#">Insurance</a
+              ><a class="rounded-full border p-1 ml-4 mb-4" href="#"
+                >Coming Soon</a
+              >
+            </p>
+          </div>
+          <div
+            class="text-white min-w-64 md:min-w-24 md:mt-0 mt-5 text-center sm:text-start"
+          >
+            <h3 class="text-sm mb-5 font-bold">Company</h3>
+            <ul>
+              <li class="text-sm mb-6"><a href="#">About us</a></li>
+              <li class="text-sm mb-6"><a href="#">About us</a></li>
+              <li class="text-sm mb-6"><a href="#">FAQS</a></li>
+              <li class="text-sm mb-6"><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div
+            class="text-white min-w-64 md:min-w-48 text-center sm:text-start"
+          >
+            <h3 class="text-sm mb-7 font-bold">Transparency</h3>
+            <ul>
+              <li class="text-sm mb-6"><a href="#">Terms & conditions</a></li>
+              <li class="text-sm mb-6">
+                <a href="#">Information security policy</a>
+              </li>
+              <li class="text-sm mb-6"><a href="#">Privacy policy</a></li>
+              <li class="text-sm mb-6">
+                <a href="./interest-page.html">Interest Tool</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="text-white min-w-64 md:min-w-48 text-center sm:text-start"
+          >
+            <h3 class="text-sm mb-7 font-bold">Developer</h3>
+            <ul>
+              <li class="text-sm">
+                <a href="#">Connect API</a
+                ><a class="rounded-full border p-1 ml-4" href="#"
+                  >Coming Soon</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="text-white min-w-64 md:min-w-48 text-center sm:text-start"
+          >
+            <h3 class="text-sm mb-7 font-bold">Address</h3>
+            <p class="text-sm mb-6">33B, Ogundana street, Allen, Ikeja.</p>
+            <h3 class="text-sm mb-7 font-bold">Contact</h3>
+            <p class="text-sm mb-4">
+              <a href="mailto:support@ardilla.africa">support@ardilla.africa</a>
+            </p>
+            <p class="text-sm">
+              <a href="tel:+(234)801 000 1234">(234)801 000 1234</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mx-auto w-[87%] my-9">
+        <div>
+          <hr class="mb-8" />
+          <div
+            class="text-white mt-4 mb-5 md:mt-0 flex flex-col justify-center items-center sm:items-start sm:justify-between sm:flex-row flex-wrap"
+          >
+            <p>&copy; 2023 Ardilla. All right reserved</p>
+            <div class="flex gap-2 sm:mr-20 mr-0">
+              <img
+                class="border rounded-full w-9 h-9 p-1"
+                src="../image/ph_instagram-logo.svg"
+                alt="instagram-logo"
+              />
+              <img
+                class="border rounded-full w-9 h-9 p-1"
+                src="../image/Vector.svg"
+                alt="facebook-logo"
+              />
+              <img
+                class="border rounded-full w-9 h-9 p-1"
+                src="../image/Group.svg"
+                alt="link-in-logo"
+              />
+              <img
+                class="border rounded-full w-9 h-9 p-1"
+                src="../image/Group (1).svg"
+                alt="twitter-logo"
+              />
+            </div>
+          </div>
+          <p class="text-sm text-white">
+            Ardilla operates under the coorperative license of Ardilla
+            Multipurpose Cooperative Society, LSC 18245, We provide Savings and
+            Fixed deposit services to our users
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="../text.js"></script>
+  </body>
+</html>
